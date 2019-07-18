@@ -1,4 +1,66 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+div {
+  float: left;
+  margin: 2% 0;
+  width: 100%;
+  padding: 10px 10px 200px 10px;
+  text-align: left;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+h1 {
+  font-family: serif;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 30px;
+}
+
+.emphasis {
+  font-family: 'system-ui';
+  font-size: 50%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.preview-baku {
+  background: #fff url(images/baku.jpg);
+}
+
+.preview-london {
+  background: #fff url(images/baku.jpg);
+}
+
+.preview-madrid {
+  background: #fff url(images/baku.jpg);
+}
+
+.preview-rome {
+  background: #fff url(images/baku.jpg);
 }
