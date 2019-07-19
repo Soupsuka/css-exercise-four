@@ -50,17 +50,17 @@ h1 {
 }
 
 .preview-baku {
-  background: #fff url(images/baku.jpg);
+  background-image: url(images/baku.jpg);
 }
 
 .preview-london {
-  background: #fff url(images/baku.jpg);
+  background-image: url(images/london.png);
 }
 
 .preview-madrid {
-  background: #fff url(images/baku.jpg);
+  background-image: url(images/madrid.jpg);
 }
 
 .preview-rome {
-  background: #fff url(images/baku.jpg);
+  background-image: url(images/rome.jpg);
 }
